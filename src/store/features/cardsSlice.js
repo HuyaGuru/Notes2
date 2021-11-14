@@ -4,7 +4,7 @@ const initialState = {
 	list: [
 		{ title: "Untitled", text: "" },
 		{
-			title: "Bio Classssssssssssssss",
+			title: "Bio Class",
 			date: 1633545000000,
 			text: "Mitochondria is the power house of the cell.",
 		},
