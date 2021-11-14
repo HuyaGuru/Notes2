@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
+/* custom variables */
+:root {
+	--clr-bg: #111111;
+	--clr-200: #f1f1f1;
+	--clr-300: #acacac;
+	--clr-400: #a6a6a6;
+	--clr-500: #4d4d4d;
+
+	--fw-light: 300;
+}
+/* css reset */
+* {
+	box-sizing: border-box;
+}
+h1,
+h2,
+ul,
+p,
+body {
+	margin: 0;
+}
+/* css start */
+h1,
+h2 {
+	font-weight: inherit;
+}
+html {
+	height: 100%;
+}
+body {
+	background-color: var(--clr-bg);
+	height: 100%;
+}
+#root {
+	height: 100%;
+}
+#root > div {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
